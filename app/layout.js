@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Portfolio of Umar Farooq - Software Developer",
+	icon: "/favicon.ico",
 	description:
 		"This is the portfolio of Umar Farooq. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others.",
 };
