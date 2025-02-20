@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
-				<link rel="icon" href="/og-image.png" />
+				<link rel="icon" type="image/svg+xml" href="/about.png" />
 			</head>
 			<body className={inter.className}>
 				<ToastContainer />
