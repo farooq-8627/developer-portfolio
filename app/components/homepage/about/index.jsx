@@ -2,6 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
+import GlowCard from "../../helper/glow-card";
 
 function AboutSection() {
 	return (
@@ -22,13 +23,15 @@ function AboutSection() {
 					</p>
 				</div>
 				<div className="flex justify-center order-1 lg:order-2">
-					<Image
-						src={personalData.profile}
-						width={320}
-						height={280}
-						alt="Umar Farooq"
-						className="cover cursor-pointer border-2 border-[#25213b] rounded-full"
-					/>
+					<GlowCard key="profile-image" identifier="profile-image">
+						<Image
+							src={personalData.profile}
+							width={280}
+							height={280}
+							alt="Umar Farooq"
+							className="cover cursor-pointer border-2 border-[#25213b] rounded-xl"
+						/>
+					</GlowCard>
 				</div>
 			</div>
 		</div>
